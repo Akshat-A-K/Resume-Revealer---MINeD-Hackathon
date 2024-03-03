@@ -1,0 +1,54 @@
+Nasit Prince
+ +91 99048 19036
+# princenasit371@gmail.com
+ï linkedin
+Education
+studying in Institute Of Technology, Nirma University
+Oct 2021 - May 2025
+B. Tech in Computer Science and Engineering CGPA 8.68/10
+Ahmedabad, India
+Experience
+Computer Society Of India, Nirma University
+Nov 2022 – Present
+Member Of Executive committee
+Ahmedabad, India
+• Led the successful organization of HackNUthon 4.0, an esteemed national-level hackathon that took place in April
+2023, serving as a vital member of the core committee..
+• Crafted and validated intricate problem sets for diverse online contests, ensuring a competitive environment.
+• Additionally, played an instrumental role in the Organizing Committee of Cubix 2023, a prominent and innovative
+technology event, where active contributions helped make the event a resounding success.
+Projects
+Handwritten Character Recognition | Python, Machine learning, Deep learning, Streamlit | Link
+• Developed Handwritten Characters Recognition project using machine learning techniques.
+• Achieved high accuracy in character recognition through extensive model training.
+• Utilized Python and popular libraries like TensorFlow, keras, openCV, scikit-learn, numpy and pandas for
+implementation and Successfully integrated the project into real-world applications.
+Tour Guide | Java, Object Oriented programming | Link
+• Developed a Java-based Tour Guide project, incorporating Object-Oriented Programming (OOP) principles.
+• Implemented inheritance to establish a hierarchical relationship among different types of locations and Utilized
+polymorphism to enable dynamic behavior and seamless integration of new features.
+• Designed classes for locations, user preferences, and tour packages, including Season Tour, Economic Tour, and Month
+Tour.
+Scheduling Algorithms | Operating System, C | Link
+• Implemented various Scheduling Algorithms for project optimization.
+• Created the project using C with the use of structure , linked list, queue and etc.
+• Analyzed and compared the performance of each algorithm using real-world data.
+Medical Store Management System | Data Structure and Algorithms, C | Link
+• Experienced in developing a medical store management system utilizing tree data structure and C language.
+• Utilized tree-based structure to handle large inventories and track expiration dates effectively.
+• Optimized the addition and removal of medicines through the tree data structure.
+• Successfully delivered a reliable and scalable medical store management solution.
+Achievements
+• Pupil on codeforces with the highest rating of 1245
+• Rated 3 star in codechef with highest ratting of 1619
+• Successfully participated in Flipcart GRid 4.0 - Software Development Challenge organized by Flipcart.
+Profile Links
+• Codechef
+• Codeforces
+• Leetcode
+Technical Skills
+Languages: C, C++, Python, Java, HTML/CSS, JavaScript, SQL
+Frameworks: ReactJS, AngularJS, Bootstrap
+Libraries: numpy, pandas, openCV, keras, tenserflow, scikit-learn, matplotlib, streamlit
+CS Fundamentals: Operating System, Data Structure and Algorithms, Database Management System, Object Oriented
+Programming

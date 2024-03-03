@@ -1,0 +1,212 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+	{#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+	\item\small{
+    	{#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+	\begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+  	\textbf{#1} & \textbf{\small #2} \\
+  	\textit{\small#3} & \textit{\small #4} \\
+	\end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+	\item
+	\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+  	\textit{\small#1} & \textit{\small #2} \\
+	\end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+	\item
+	\begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+  	\small#1 & \textbf{\small #4}\\
+	\end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+\begin{center}
+	{\Huge  Akshat Kotadia} \\ \vspace{1pt}
+	\small \raisebox{-0.1\height}\faPhone\ +91 9737259930  ~ \href{mailto:kotadiaakshat6516@gmail.com}{\raisebox{-0.4\height}\faEnvelope\  \underline{kotadiaakshat6516@gmail.com}} ~
+	\href{https://www.linkedin.com/in/akshat-kotadia-32b2b6222/}{\raisebox{-0.4\height}\faLinkedin\ \underline{LinkedIn}}
+ 
+	\vspace{-8pt}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+	\resumeSubheading
+  	{Institute Of Technology, Nirma University}{Oct 2021 - May 2025}
+  	{B. Tech in Computer Science and Engineering \textbf{CGPA  8.29/10}}{Ahmedabad, India}
+
+        \resumeSubheading
+  	{A. G. High School}{2020 - 2021}
+  	{HSC Science \textbf{Grade: A2}}{Ahmedabad, India}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Co-Curricular Activities}
+  \resumeSubHeadingListStart
+	\resumeSubheading
+  	{Computer Society Of India, Nirma University}{Nov 2022 -- Present}
+  	{Social Media Head}{Ahmedabad, India}
+  	\resumeItemListStart
+    	\resumeItem{Being Board Member 2023-24 and managing social media accounts of Computer Society Of India.}
+	\resumeItemListEnd
+        {Member Of Executive committee}{, Ahmedabad, India}
+  	\resumeItemListStart
+    	\resumeItem{Leading the successful \textbf{HackNUthon 4.0} event, a well-known national hackathon that happened in April 2023 as a member of the core committee. Provided and confirmed problem sets for a variety of online coding competitions, ensuring a competitive environment. Furthermore, I was in the organizing committee of \textbf{Cubix 2023}, a well-known and cutting-edge technology event.}
+	\resumeItemListEnd
+    \vspace{2mm}
+    \resumeSubheading
+  	{Amazon ML Summer School 2023}{Sep 2023 - Nov 2023}
+  	{Mentee}{Ahmedabad, India}
+  	\resumeItemListStart
+    	\resumeItem{An integrated learning program for students on key Machine Learning (ML) topics}
+	\resumeItemListEnd
+  \resumeSubHeadingListEnd
+\vspace{-16pt}
+
+\section{Projects}
+	\vspace{-5pt}
+	\resumeSubHeadingListStart
+	\resumeProjectHeading
+      	{\textbf{Food Delivery Time Prediction } $|$ \emph{\textbf{Python, Machine learning, Streamlit}} $|$ {\href{https://github.com/Akshat-A-K/Food-Delivery-Time-Prediction}{Link}}}{November 2023}
+      	\resumeItemListStart
+        	\resumeItem{ This project is a food delivery time prediction system that leverages machine learning models, specifically XGBoost from Scikit-learn. It allows users to get estimated delivery times based on either their live location or a selected location, considering a chosen restaurant. API is used for weather related data. }
+      	\resumeItemListEnd
+       \vspace{-13pt}
+       \resumeProjectHeading
+      	{\textbf{University Management System} $|$ \emph{\textbf{Java Object Oriented programming}}  $|$ { \href{https://github.com/Akshat-A-K/University_Management-System-using-OOP-Java}{Link}}}{}
+      	\resumeItemListStart
+        	\resumeItem{Developed a java-based  University Management System project, incorporating various Object-Oriented Programming (OOP) principles. It includes inherited classes of each member utilising this system. There are 3 different portals: student, faculty and services by University.}
+      	\resumeItemListEnd
+       	\vspace{-13pt}
+  	\resumeProjectHeading
+      	{\textbf{Scheduling Algorithms} $|$ \emph{\textbf{Operating System, C}}  $|$ { \href{https://github.com/Akshat-A-K/Operating-Systems--Simulator-of-Sheduling-Algorithms}{Link}}}{January 2019}
+      	\resumeItemListStart
+        	\resumeItem{Implemented various Scheduling Algorithms for project optimization. Created the project using C with the use of structure , linked list, queue etc. A dynamic file input- output simulator of scheduling Algorithms in OS.}
+      	\resumeItemListEnd
+       \vspace{-13pt}
+       \resumeProjectHeading
+      	{\textbf{Railway Ticket Booking System} $|$ \emph{\textbf{Python - Flask, HTML. CSS, JavaScript, MySQL}}  $|$ { \href{https://github.com/Akshat-A-K/Railway-ticket-booking}{Link}}}{}
+      	\resumeItemListStart
+        	\resumeItem{Used Flask, HTML, CSS, and JavaScript to create an easy-to-use railway ticket booking system. MySQL was used to store and retrieve train schedules, seat availability, and user data. Automated email notifications with SMTP to send users digital tickets with detailed information after booking. Created a chatbot to answer real-time questions about ticket availability, booking, and railway information.
+}
+      	\resumeItemListEnd
+	\resumeSubHeadingListEnd
+\vspace{-15pt}
+
+%-----------Achievements-----------
+\section{Achievements}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+	\resumeItemListStart
+    	\resumeItem{\textbf{Pupil} on \textbf{Codeforces} with highest rating of \textbf{1330}}
+    	\resumeItem{Rated \textbf{4 star} in \textbf{Codechef} with highest rating of \textbf{1785} }
+            \resumeItem{Awarded Nirma Institute of Technology Alumni Association (NITAA) Scholarship}
+  	\resumeItemListEnd
+ \end{itemize}
+ \vspace{-16pt}
+ 
+ %
+%-----------Profile Links-----------
+\section{Important Links}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+	\resumeItemListStart
+    	\resumeItem {{Codechef: }\href{https://www.codechef.com/users/akshat_0933}{ akshat\_0933 }}
+    	\resumeItem {{Codeforces: }\href{https://codeforces.com/profile/Akshat2003}{ Akshat2003 }{ , }{\href{https://codeforces.com/profile/Ak2003}{Ak2003}}}
+    	\resumeItem {{Leetcode: }\href{https://leetcode.com/kotadiaakshat/}{kotadiaakshat}}
+            \resumeItem {{Github: }\href{https://github.com/Akshat-A-K/}{Akshat-A-K}}
+  	\resumeItemListEnd
+ \end{itemize}
+ \vspace{-16pt}
+
+%
+%-----------PROGRAMMING SKILLS-----------https://www.codechef.com/users/akshat_0933
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+	\small{\item{
+ 	\textbf{Programming}{: C, C++, Python, Java, HTML/CSS, JavaScript, MySQL} \\
+ 	\textbf{Frameworks}{: Python - Flask, NodeJS, ExpressJS, AngularJS} \\
+    \textbf{Libraries}{: numpy, pandas, openCV, scikit-learn, matplotlib, streamlit, scipy}\\
+    \textbf{CS Fundamentals}{: Operating Systems, Data Structure and Algorithms, Database Management System, Object Oriented Programming, Machine Learning}
+	}}
+ \end{itemize}
+ \vspace{-16pt}
+
+\end{document}
